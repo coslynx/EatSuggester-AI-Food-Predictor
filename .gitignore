@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules
+
+# Build output
+dist
+.next
+logs
+
+# Log files
+*.log
+
+# Temporary files
+*.tsbuildinfo
+
+# Documentation
+*.md
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Security-related
+.env
+config/config.js
+secrets.json
+*.key
